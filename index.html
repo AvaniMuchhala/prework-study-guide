@@ -1,22 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prework Study Guide</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-    </header>
-    <main>
-      <!-- Student code goes here -->
-    </main>
 
-    <footer>
-      <p>I can code!</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prework Study Guide</title>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Prework Study Guide</h1>
+    <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+  </header>
+
+  <main>
+
+    <section class="card" id="html-section">
+      <h2>HTML</h2>
+      <ul>
+        <li>HTML gives content structure</li> 
+        <li>&lt;!DOCTYPE html&gt;: declaration tells browser to expect HTML on page</li>
+        <li>&lt;html&gt;: opening tag at start of doc</li>
+          <ul>
+            <li>&lt;html lang="en"&gt;: attribute tells browser lang for webpage is English</li>
+          </ul>
+        <li>The head element contains information about the webpage.</li>
+          <ul>
+            <li>&lt;title&gt;: title for tab of webpage</li>
+            <li>&lt;style&gt;: defines CSS styles associated with website</li>
+            <li>&lt;base&gt;: base URL for webpage</li>
+            <li>&lt;link&gt;: connects external resource to HTML doc</li>
+            <li>&lt;meta&gt;: metadata (i.e. char encoding, keywords, author)</li>
+              <ul>
+                <li>charset: sets character encoding</li>
+                <li>http-equiv: sets HTTP header for content</li>
+                <li>viewport: sets default view for webpage</li>
+              </ul>
+
+          </ul>
+        <li>The body element represents the visible content shown to the user.</li>
+          <ul>
+            <li>&lt;h#&gt;: creates diff sizes/levels of headers/subtitles (1 is largest)</li>
+            <li>&lt;p&gt;: paragraph/block of text</li>
+            <li>Lists</li>
+              <ul>
+                <li>&lt;ul&gt;: unordered lists</li>
+                <li>&lt;ol&gt;: ordered lists</li>
+                <li>&lt;li&gt;: list items</li>
+              </ul>
+            <li>&lt;img&gt;: info about images</li>
+               <ul>
+                <li>src: location of image</li>
+                <li>alt: text that describes appearance & functionality of img</li>
+               </ul> 
+            <li>&lt;br&gt;: creates line of empty space</li>
+            <li>&lt;a&gt;: creates hyperlink to same or other webpage</li>
+               <ul>
+                <li>href: points to URL for link</li>
+               </ul>
+            <li>&lt;footer&gt;: author, copyright, contact, sitemap, navigation, etc.</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section class="card" id="css-section">
+      <h2>CSS</h2>
+      <ul>
+        <li>Enter your CSS notes here</li>
+      </ul>
+    </section>
+
+    <section class="card" id="git-section">
+      <h2>Git</h2>
+      <ul>
+        <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+        <li>git checkout branch-name: switches to existing branch</li>
+        <li>git status: checks what branch we are currently on</li>
+        <li>git add -A: adds all changes in current working branch to staging area</li>
+        <li>git commit -m "message": commit files with a message about the changes</li>
+        <li>git pull origin main: pull latest version of main branch to local computer</li>
+        <li>git push origin branch-name: push changes in local branch to remote GitHub branch</li>
+      </ul>
+    </section>
+
+    <section class="card" id="javascript-section">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>Enter your JavaScript notes here</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>I can code!</p>
+  </footer>
+</body>
+
 </html>
