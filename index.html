@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style.css">
   <title>Prework Study Guide</title>
 </head>
 
@@ -19,55 +20,86 @@
     <section class="card" id="html-section">
       <h2>HTML</h2>
       <ul>
-        <li>HTML gives content structure</li> 
+        <li>HTML gives content structure</li>
         <li>&lt;!DOCTYPE html&gt;: declaration tells browser to expect HTML on page</li>
         <li>&lt;html&gt;: opening tag at start of doc</li>
-          <ul>
-            <li>&lt;html lang="en"&gt;: attribute tells browser lang for webpage is English</li>
-          </ul>
+        <ul>
+          <li>&lt;html lang="en"&gt;: attribute tells browser lang for webpage is English</li>
+        </ul>
         <li>The head element contains information about the webpage.</li>
+        <ul>
+          <li>&lt;title&gt;: title for tab of webpage</li>
+          <li>&lt;style&gt;: defines CSS styles associated with website</li>
+          <li>&lt;base&gt;: base URL for webpage</li>
+          <li>&lt;link&gt;: connects external resource to HTML doc</li>
+          <li>&lt;meta&gt;: metadata (i.e. char encoding, keywords, author)</li>
           <ul>
-            <li>&lt;title&gt;: title for tab of webpage</li>
-            <li>&lt;style&gt;: defines CSS styles associated with website</li>
-            <li>&lt;base&gt;: base URL for webpage</li>
-            <li>&lt;link&gt;: connects external resource to HTML doc</li>
-            <li>&lt;meta&gt;: metadata (i.e. char encoding, keywords, author)</li>
-              <ul>
-                <li>charset: sets character encoding</li>
-                <li>http-equiv: sets HTTP header for content</li>
-                <li>viewport: sets default view for webpage</li>
-              </ul>
+            <li>charset: sets character encoding</li>
+            <li>http-equiv: sets HTTP header for content</li>
+            <li>viewport: sets default view for webpage</li>
+          </ul>
 
-          </ul>
+        </ul>
         <li>The body element represents the visible content shown to the user.</li>
+        <ul>
+          <li>&lt;h#&gt;: creates diff sizes/levels of headers/subtitles (1 is largest)</li>
+          <li>&lt;p&gt;: paragraph/block of text</li>
+          <li>Lists</li>
           <ul>
-            <li>&lt;h#&gt;: creates diff sizes/levels of headers/subtitles (1 is largest)</li>
-            <li>&lt;p&gt;: paragraph/block of text</li>
-            <li>Lists</li>
-              <ul>
-                <li>&lt;ul&gt;: unordered lists</li>
-                <li>&lt;ol&gt;: ordered lists</li>
-                <li>&lt;li&gt;: list items</li>
-              </ul>
-            <li>&lt;img&gt;: info about images</li>
-               <ul>
-                <li>src: location of image</li>
-                <li>alt: text that describes appearance & functionality of img</li>
-               </ul> 
-            <li>&lt;br&gt;: creates line of empty space</li>
-            <li>&lt;a&gt;: creates hyperlink to same or other webpage</li>
-               <ul>
-                <li>href: points to URL for link</li>
-               </ul>
-            <li>&lt;footer&gt;: author, copyright, contact, sitemap, navigation, etc.</li>
+            <li>&lt;ul&gt;: unordered lists</li>
+            <li>&lt;ol&gt;: ordered lists</li>
+            <li>&lt;li&gt;: list items</li>
           </ul>
+          <li>&lt;img&gt;: info about images</li>
+          <ul>
+            <li>src: location of image</li>
+            <li>alt: text that describes appearance & functionality of img</li>
+          </ul>
+          <li>&lt;br&gt;: creates line of empty space</li>
+          <li>&lt;a&gt;: creates hyperlink to same or other webpage</li>
+          <ul>
+            <li>href: points to URL for link</li>
+          </ul>
+          <li>&lt;footer&gt;: author, copyright, contact, sitemap, navigation, etc.</li>
+        </ul>
       </ul>
     </section>
 
     <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
-        <li>Enter your CSS notes here</li>
+        <li>CSS gives style, aesthetics, organization</li>
+        <li>3 ways:</li>
+        <ul>
+          <li>Inline CSS: to style element directly in HTML file (use style attribute inside HTML tag)</li>
+          <li>Internal CSS Style Sheet: to embed entire stylesheet directly in HTML file using &lt;style&gt; element in
+            &lt;head&gt; element</li>
+          <li>External CSS Style Sheet: to keep CSS rules in separate file, use &lt;link&gt; inside &lt;head&gt; to link
+            file</li>
+        </ul>
+        <li>CSS rule:</li>
+        <ul>
+          <li>Selector defines element or attributes to which rules apply</li>
+          <ul>
+            <li>* = all elements on page</li>
+          </ul>
+          <li>Declaration includes CSS property and value</li>
+          <li>Class attribute = share CSS rule to any element by assigning the rule to class attribute with class
+            selector</li>
+          <ul>
+            <li>".class" means style applies to all elements assigned to this class</li>
+          </ul>
+        </ul>
+        <li>CSS box model:</li>
+        <ul>
+          <li>Margin: space around outside of element</li>
+          <li>Padding: space around content inside element</li>
+        </ul>
+        <li>&lt;img&gt; selector</li>
+        <ul>
+          <li>"display: block": assigns each image on page to start on new line</li>
+        </ul>
+        
       </ul>
     </section>
 
