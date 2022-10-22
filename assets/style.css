@@ -1,0 +1,49 @@
+* {
+    /* applied to all elements */
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Helvetica;
+    text-shadow: 1px 1px 3px rgb(20, 16, 133);
+}
+
+img {
+    display: block;         /* assigns each image to start on new line */
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {                     /* applies to any HTML element assigned to card class */
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 10px 10px #474747;   /* X, Y offsets of shadow, blur and spread radius, color */
+    background-color: rgb(194, 211, 243);
+}
